@@ -38,6 +38,11 @@ body {
     padding: 15px;
   }
 
+  button:hover {
+    background-color: #f6980c;
+    box-shadow: 0 16px 36px rgba(246 152 12 / 20%);
+  }
+
   .about__image {
     width: 500px;
   }
@@ -149,4 +154,40 @@ body {
 
   input {
     outline: none;
+  }
+
+  footer {
+    padding: 90px 20px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .footer__container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer__copyright {
+    margin-top: 40px;
+    text-align: center;
+    opacity: 0.5;
+  }  
+
+  .footer__group {
+    margin-right: 80px;
+    
+  }
+
+  .footer__group h3 {
+    font-size: 16px;
+    opacity: 0.7;
+  }
+
+  .footer__links {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer__links a {
+    margin-bottom: 15px;
   }
